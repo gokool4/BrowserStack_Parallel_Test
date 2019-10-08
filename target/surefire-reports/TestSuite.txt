@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 1, Time elapsed: 1.054 s <<< FAILURE! - in TestSuite
+setUp(com.testSuite.SingleTest)  Time elapsed: 0.707 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'config' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+
+
+tearDown(com.testSuite.SingleTest)  Time elapsed: 0.716 s  <<< FAILURE!
+java.lang.NullPointerException
+
