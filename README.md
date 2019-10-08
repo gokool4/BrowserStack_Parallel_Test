@@ -1,2 +1,3 @@
-# BrowserStack_Parallel_Test
-Run Parallel selenium tests on multiple browsers on the cloud using browserstack
+# testng-test-suite
+
+- To run the single test, run `mvn test -P single`

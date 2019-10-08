@@ -1,0 +1,41 @@
+{
+  "server": "hub-cloud.browserstack.com",
+  "user": "gokulmurali1",
+  "key": "idFPNFCxgsWMqWy7bAzC",
+
+  "capabilities": {
+    "name": "Bstack-[TestNG] Parallel Test",
+    "browserstack.debug": true
+  },
+
+  "environments": {
+    "chrome": {
+    "os": "Windows",
+    "os_version": "10",
+    "browser": "chrome",
+    "browser_version": "62.0",
+    "resolution": "1920x1080"
+    },
+    "firefox": {
+     "os": "OS X",
+    "os_version": "Mojave",
+    "browser": "Firefox",
+    "browser_version": "69.0",
+    "resolution": "1920x1080"
+    },
+    "safari": {
+     "os": "OS X",
+    "os_version": "Mojave",
+    "browser": "Safari",
+    "browser_version": "12.0",
+    "resolution": "1920x1080"
+    },
+    "ie": {
+     "os": "Windows",
+    "os_version": "10",
+    "browser": "IE",
+    "browser_version": "11.0",
+    "resolution": "1920x1080"
+    }
+  }
+}
